@@ -176,11 +176,6 @@ select::-ms-expand {
     color: #b9b9b9;
 }
 
-/* override the properties of bootstrap dropdown-item */
-.dropdown-item {
-    font-size: 12px;
-}
-
 .tab-2 {
     display: none;
 }
@@ -196,3 +191,7 @@ select::-ms-expand {
     left:20%;
 }
 
+/* override the properties of bootstrap dropdown-item */
+.dropdown-item {
+    font-size: 12px;
+}
