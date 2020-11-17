@@ -25,7 +25,6 @@
 
 
 require_once(__DIR__ . '/../../config.php');
-require_once(__DIR__ . '/custom_function.php');
 require_once($CFG->dirroot. '/grade/querylib.php');
 require_once($CFG->libdir.'/gradelib.php');
 
