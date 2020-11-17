@@ -49,7 +49,6 @@ $students = get_role_users(5 , $context_course);
 $modinfo = get_fast_modinfo($courseid);
 $mods = $modinfo->get_cms();
 
-
 $ass_no_one = null;
 $ass_no_two = null;
 $arr_of_students = array();
@@ -171,5 +170,3 @@ $templatecontext = (object)[
 echo $OUTPUT->header();
 echo $OUTPUT->render_from_template('local_gugcat/index', $templatecontext);
 echo $OUTPUT->footer();
-//I have finished displaying all the data in the table of overview and grade aggregate, 
-// what I do now is I just clean my code
