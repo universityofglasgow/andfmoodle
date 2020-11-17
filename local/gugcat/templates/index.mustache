@@ -180,30 +180,31 @@
                     </tr>
                 </thead>
                 <tbody>
+                    {{#students}}
                     <tr>
-                        <td>1</th>
-                        <td>101282</td>
-                        <td>Austen</td>
-                        <td>Jane</td>
-                        <td>H 
+                        <td>{{id}}</th>
+                        <td>{{id}}</td>
+                        <td>{{surname}}</td>
+                        <td>{{forename}}</td>
+                        <td>{{assignment1}}
                             <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Ammend Grades</a>
                                 <a class="dropdown-item" href="#">Historical Ammendments</a>
                             </div>
                         </td>
-                        <td>A2 
+                        <td>{{assignment2}} 
                             <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
                         </td>
-                        <td>A1 
+                        <td>{{exam1}} 
                             <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
                         </td>
-                        <td>A1
+                        <td>{{exam2}}
                             <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
                         </td>
                         <td class="td-9">
                             <span class="td-9-aggregate-grade">
-                                A1 
+                                {{aggregate_grade}} 
                                 <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                     <a class="dropdown-item" href="#">Ammend Grades</a>
@@ -212,134 +213,7 @@
                             </span>
                         </td>
                     </tr>
-                    <tr>
-                        <td>2</th>
-                        <td>101283</td>
-                        <td>Barrie</td>
-                        <td>James</td>
-                        <td>H 
-                            <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Ammend Grades</a>
-                                <a class="dropdown-item" href="#">Historical Ammendments</a>
-                            </div>
-                        </td>
-                        <td>A2 
-                            <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                        </td>
-                        <td>A2 
-                            <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                        </td>
-                        <td>A2
-                            <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                        </td>
-                        <td>
-                            <span class="td-9-aggregate-grade">
-                                A2 
-                                <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="#">Ammend Grades</a>
-                                    <a class="dropdown-item" href="#">Historical Ammendments</a>
-                                </div>
-                            </span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>3</th>
-                        <td>101284</td>
-                        <td>Buchan</td>
-                        <td>John</td>
-                        <td>A1 
-                            <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Ammend Grades</a>
-                                <a class="dropdown-item" href="#">Historical Ammendments</a>
-                            </div>
-                        </td>
-                        <td>A2 
-                            <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                        </td>
-                        <td>A3 
-                            <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                        </td>
-                        <td>A4
-                            <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                        </td>
-                        <td>
-                            <span class="td-9-aggregate-grade">
-                                A1 
-                                <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="#">Ammend Grades</a>
-                                    <a class="dropdown-item" href="#">Historical Ammendments</a>
-                                </div>
-                            </span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>4</th>
-                        <td>101285</td>
-                        <td>Doyle</td>
-                        <td>Arthur</td>
-                        <td>B1 
-                            <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Ammend Grades</a>
-                                <a class="dropdown-item" href="#">Historical Ammendments</a>
-                            </div>
-                        </td>
-                        <td>B2 
-                            <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                        </td>
-                        <td>B1 
-                            <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                        </td>
-                        <td>B2
-                            <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                        </td>
-                        <td>
-                            <span class="td-9-aggregate-grade">
-                                A1 
-                                <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="#">Ammend Grades</a>
-                                    <a class="dropdown-item" href="#">Historical Ammendments</a>
-                                </div>
-                            </span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>5</th>
-                        <td>101286</td>
-                        <td>Hamilton</td>
-                        <td>Elizabeth</td>
-                        <td>A1 
-                            <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Ammend Grades</a>
-                                <a class="dropdown-item" href="#">Historical Ammendments</a>
-                            </div>
-                        </td>
-                        <td>A4 
-                            <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                        </td>
-                        <td>B1 
-                            <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                        </td>
-                        <td>B1
-                            <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                        </td>
-                        <td>
-                            <span class="td-9-aggregate-grade">
-                                B1 
-                                <i class="fa fa-ellipsis-h ellipsis-h-color" aria-hidden="true" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="#">Ammend Grades</a>
-                                    <a class="dropdown-item" href="#">Historical Ammendments</a>
-                                </div>
-                            </span>
-                        </td>
-                    </tr>
+                    {{/students}}
                 </tbody>
             </table>
         </div>
