@@ -87,9 +87,6 @@ $exam_one_grading_info = grade_get_grades($course->id, 'mod', 'quiz', 1, array_k
 $exam_two_grading_info = grade_get_grades($course->id, 'mod', 'quiz', 2, array_keys($arr_of_students));
 
 
-// echo var_dump($exam_one_grading_info);
-// die;
-
 foreach($students as $student_key => $student_value){
     if(sizeof($student) >= 1){
         $result = grade_get_course_grades($course->id, $student_value->id);
