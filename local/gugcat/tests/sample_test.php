@@ -81,7 +81,6 @@
 
             $this->resetAfterTest();
 
-            // Create five users.
             $user1 = $this->getDataGenerator()->create_user();
             $user2 = $this->getDataGenerator()->create_user();
 
